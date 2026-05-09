@@ -1,3 +1,4 @@
+// update
 async function getPrices() {
   const res = await fetch("https://capit24-prices.vercel.app/api/all", {
     next: { revalidate: 5 }
@@ -15,3 +16,4 @@ export default async function TerminalPage() {
     </div>
   );
 }
+
