@@ -1,3 +1,4 @@
+// update
 export async function getServerSideProps() {
   const res = await fetch("https://capit24-prices.vercel.app/api/all");
   const data = await res.json();
