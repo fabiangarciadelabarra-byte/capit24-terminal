@@ -1,3 +1,4 @@
+// update layout
 export const metadata = {
   title: "Capit24 Terminal",
   description: "Terminal de precios",
